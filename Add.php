@@ -7,7 +7,7 @@
 
           <?php
 
-          if(isset($_POST['btnSubmit'])){
+          if(isset($_POST['btnAdd'])){
 
                $filePath = strtoupper( $_POST['fName'] . "_" . $_POST['lName'] ) . ".txt";
 
@@ -44,7 +44,7 @@
 
                </tr>
 
-               <form action="" method="post">
+               <form action="Home.php" method="post">
 
                     <!-- First Name -->
                     <tr>

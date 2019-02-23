@@ -7,7 +7,7 @@
 
           <?php
 
-          if(isset($_GET['fName']) && isset($_GET['lName'])){
+          if(isset($_POST['btnFind'])){
                $firstName = $_GET['fName'];
                $lastName = $_GET['lName'];
 
